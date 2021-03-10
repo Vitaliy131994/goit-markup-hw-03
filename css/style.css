@@ -19,14 +19,43 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  outline: 1px solid tomato;
+}
+
 .header {
-  background: var(--back-header);
+  background: var(--white-text);
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 24px;
 }
 
 .zakaz {
   background: var(--back-zakaz);
   color: var(--white-text);
   text-decoration: none;
+  padding-top: 200px;
+  padding-bottom: 280px;
 }
 
 .zakaz-1 {
@@ -37,12 +66,19 @@ body {
 }
 
 .usluga {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  width: 200px;
+  height: 50px;
   background: var(--back-usluga);
   color: var(--white-text);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  text-align: center;
+  box-shadow: 0px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
 }
 
 .logo {
@@ -72,6 +108,19 @@ body {
   line-height: 1.14;
 }
 
+.nav li {
+  margin-right: 50px;
+}
+
+.nav-nav li:first-child {
+  margin-right: 50px;
+}
+
+.nav,
+.nav-nav {
+  display: flex;
+}
+
 .nav:hover,
 .nav:focus {
   color: var(--blue-text);
@@ -96,10 +145,6 @@ body {
 .nav-nav:hover,
 .nav-nav:focus {
   color: var(--blue-text);
-}
-
-ul {
-  list-style-type: none;
 }
 
 .zagolovok-3 {
