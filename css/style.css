@@ -10,10 +10,16 @@
   --back-comanda-prod: rgba(245, 244, 250, 1);
 }
 
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
 header,
 section,
 footer {
-  border: 1px solid;
+  border: 1px solid blue;
 }
 
 body {
@@ -157,6 +163,10 @@ h3 {
   line-height: 1.14;
 }
 
+.nav-nav-p1 {
+  padding-top: 9px;
+}
+
 .nav-nav:hover,
 .nav-nav:focus {
   color: var(--blue-text);
@@ -166,10 +176,6 @@ h3 {
   display: flex;
   padding-top: 95px;
   justify-content: space-between;
-}
-
-.chem-zanim {
-  padding-top: 94px;
 }
 
 .zagolovok-3 {
@@ -189,7 +195,10 @@ h3 {
 .pictures {
   display: flex;
   justify-content: space-between;
-  margin-top: 50px;
+}
+
+.zaniatia {
+  padding-top: 94px;
 }
 
 .text-4 {
@@ -207,8 +216,12 @@ h3 {
 }
 
 .nasha-comanda {
-  /* padding-top: 188px; */
   background: var(--back-comanda-prod);
+  padding: 94px 0;
+}
+
+.posizia {
+  padding-top: 50px;
 }
 
 .comanda-prod {
@@ -225,8 +238,16 @@ h3 {
   padding-bottom: 10px;
 }
 
+.pictures {
+  margin: 0;
+  padding: 0;
+  background: var(--white-text);
+}
+
 .footer {
   background: var(--back-zakaz);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .adress {
@@ -234,6 +255,8 @@ h3 {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
+  margin: 0px;
+  padding-top: 20px;
 }
 
 .button-p {
