@@ -54,30 +54,30 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 25px;
-  padding-bottom: 24px;
+  /* padding-top: 25px;
+  padding-bottom: 24px; */
 }
 
-.zakaz {
+.hero {
   background: var(--back-zakaz);
   max-width: 1600px;
   color: var(--white-text);
   text-decoration: none;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  /* padding-top: 200px;
+  padding-bottom: 200px; */
   text-align: center;
 }
 
-.zakaz-1 {
+.hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  padding-bottom: 40px;
+  /* padding-bottom: 40px; */
 }
 
-.usluga {
+.hero-btn {
   justify-content: center;
   text-align: center;
   width: 200px;
@@ -92,7 +92,7 @@ h3 {
   border: none;
 }
 
-.logo {
+.nav-logo {
   color: var(--black-text);
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
@@ -102,17 +102,7 @@ h3 {
   text-align: center;
 }
 
-.logo3 {
-  color: var(--white-text);
-  text-decoration: none;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  text-align: center;
-}
-
-.logo1 {
+.text-black {
   color: var(--blue-text);
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -130,24 +120,24 @@ h3 {
 }
 
 .nav li {
-  margin-right: 50px;
+  /* margin-right: 50px; */
 }
 
 .nav-nav li:first-child {
-  margin-right: 50px;
+  /* margin-right: 50px; */
 }
 
-.nav,
-.nav-nav {
+.nav-item,
+.contacts-list {
   display: flex;
 }
 
-.nav:hover,
-.nav:focus {
+.nav-item:hover,
+.nav-item:focus {
   color: var(--blue-text);
 }
 
-.nav-nav {
+.contacts-list {
   text-decoration: none;
   color: var(--grey-text);
   font-weight: 500;
@@ -155,13 +145,13 @@ h3 {
   line-height: 1.14;
 }
 
-.nav-nav-p {
+/* .nav-nav-p {
   text-decoration: none;
   color: var(--grey-text-op60);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-}
+} */
 
 .nav-nav-p1 {
   padding-top: 9px;
@@ -172,19 +162,19 @@ h3 {
   color: var(--blue-text);
 }
 
-.detali {
+.about {
   display: flex;
-  padding-top: 95px;
+  /* padding-top: 95px; */
   justify-content: space-between;
 }
 
-.zagolovok-3 {
+.about-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
 }
 
-.text-3 {
+.about-text {
   font-weight: 400;
   color: var(--grey-text);
   font-size: 14px;
@@ -192,54 +182,43 @@ h3 {
   width: 250px;
 }
 
-.pictures {
+.doing-list {
   display: flex;
   justify-content: space-between;
 }
 
-.zaniatia {
-  padding-top: 94px;
+.doing {
+  /* padding-top: 94px; */
 }
 
-.text-4 {
+.team-text{
   font-weight: 400;
   color: var(--grey-text);
   font-size: 16px;
   line-height: 1.18;
 }
 
-.zagolovok-2 {
+.doing-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
 }
 
-.nasha-comanda {
+.team {
   background: var(--back-comanda-prod);
-  padding: 94px 0;
+  /* padding: 94px 0; */
 }
 
-.posizia {
-  padding-top: 50px;
-  padding-bottom: 94px;
-}
-
-.comanda-prod {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 50px;
-}
-
-.comanda {
+.team-title-worker {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  padding-top: 30px;
-  padding-bottom: 10px;
+  /* padding-top: 30px;
+  padding-bottom: 10px; */
 }
 
-.pictures {
+.team-list {
   margin: 0;
   padding: 0;
   background: var(--white-text);
@@ -247,37 +226,37 @@ h3 {
 
 .footer {
   background: var(--back-zakaz);
-  padding-top: 60px;
-  padding-bottom: 60px;
+  /* padding-top: 60px;
+  padding-bottom: 60px; */
 }
 
-.adress {
+.footer-adress {
   color: var(--white-text);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
-  margin: 0px;
-  padding-top: 20px;
+  /* margin: 0px;
+  padding-top: 20px; */
 }
 
-.button-p {
+/* .button-p {
   color: var(--black-text);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   cursor: pointer;
-}
+} */
 
-.zagolovok-3-p {
+/* .zagolovok-3-p {
   font-weight: 700;
   color: var(--black-text);
   font-size: 18px;
   line-height: 2;
-}
+} */
 
-.text-3-p {
+/* .text-3-p {
   font-weight: 400;
   color: var(--grey-text);
   font-size: 16px;
   line-height: 1.87;
-}
+} */
