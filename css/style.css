@@ -6,7 +6,7 @@
   --grey-text-op60: rgba(255, 255, 255, 0.6);
   --back-header: rgba(229, 229, 229, 1);
   --back-zakaz: rgba(47, 48, 58, 1);
-  --back-usluga: rgba(33, 150, 243, 1);
+  --back-blue: rgba(33, 150, 243, 1);
   --back-comanda-prod: rgba(245, 244, 250, 1);
 }
 
@@ -16,11 +16,11 @@
   box-sizing: border-box;
 }
 
-/* header,
+header,
 section,
 footer {
   border: 1px solid blue;
-} */
+}
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -41,7 +41,7 @@ h3 {
 }
 
 .container {
-  width: 1170px;
+  width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
   /* outline: 1px solid tomato; */
@@ -55,7 +55,7 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+
   padding: 24px 0 25px 0;
 }
 
@@ -139,12 +139,9 @@ h3 {
   line-height: 1.14;
 }
 
-
 .nav-list,
 .contacts-list {
   display: flex;
-  
-  
 }
 
 .nav-item-link:hover,
@@ -221,7 +218,7 @@ h3 {
   padding: 94px 0 94px 0;
 }
 
-.team-text{
+.team-text {
   font-weight: 400;
   color: var(--grey-text);
   font-size: 16px;
@@ -241,7 +238,7 @@ h3 {
   flex-wrap: wrap;
   justify-content: space-between;
 }
- 
+
 .team-image {
   margin-bottom: 10px;
 }
@@ -250,7 +247,75 @@ h3 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  margin-top: 20px;
+}
+
+.portfolio-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  margin-top: 4px;
+  padding-bottom: 20px;
+}
+
+.portfolio-list-btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0 56px 0;
+}
+
+.portfolio-item-btn {
+  margin-right: 30px;
+}
+
+.portfolio-item-btn:last-child {
+  margin-right: 0px;
+}
+
+.portfolio-item-btn:hover,
+.portfolio-item-btn:focus,
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--white-text);
+  background: var(--back-blue);
+}
+
+.portfolio-btn {
+  height: 38px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-decoration: none;
+  color: var(--black-text);
+  background: rgba(245, 244, 250, 1);
+  border-radius: 4px;
+  border: none;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-item {
+  margin-right: 30px;
+}
+
+.portfolio-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.portfolio-item:nth-child(n + 7) {
+  margin-bottom: 94px;
 }
 
 .footer {
@@ -259,8 +324,6 @@ h3 {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  
-
 }
 
 .nav-logo-footer {
@@ -310,4 +373,3 @@ h3 {
   line-height: 1.17;
   color: var(--grey-text);
 }
-
